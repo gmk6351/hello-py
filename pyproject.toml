@@ -6,3 +6,6 @@ description = "Hello World as a Python project"
 [build-system]
 requires = ["hatchling"]
 build-backend = "hatchling.build"
+
+[project.scripts]
+hello-py = "hello_py.hello:hello"
